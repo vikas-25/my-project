@@ -1,0 +1,138 @@
+body{
+	    margin: auto 0;
+	    padding-top: 5px;
+	    }.image{
+	    background-image: url('images/art.jpg');
+         border-radius: 60px 60px 60px 90px;
+         border-bottom: 60px;
+         border: solid 3px gold;
+         border-bottom: solid 3px gold;
+	    }nav ul{
+     	list-style-type: none;
+     	margin: 0 auto;
+     	text-align: center;
+          background-color: #f3e9a0;
+          border-radius: 10px 20px 30px 30px;
+     	border: solid 3px lime;
+          font-weight: bolder;
+
+     }nav ul li{
+     	display: inline-block;
+     	padding: 5px 10px;
+     	font-size: 1.3em;
+     	text-transform: uppercase;
+      
+     }div{
+     	padding-top: 30px;
+
+     }li{
+     	color: white;
+     }.container{
+     	padding: 5px;
+     	width:920px;
+     	height: 300px;
+
+     
+     }h1{
+     	color: yellow;
+     }p{
+     	color: white;
+     }a:link{
+     	color:black;
+     }a:visited{
+     	color: red;
+     }a:hover{
+     	color: pink;
+     }a:active{
+     	color: yellow;
+     }.card-header{
+     	background-color: grey;
+     	font-size: 30px;
+     	color: orange;
+          color: blueviolet;
+          font-weight: bold;
+
+
+     }.card-body{
+     	background-color: #93c498;
+
+     }.footer{
+     	padding-bottom:5px;
+          font-size: 20px;
+     
+     }.about-section{
+          padding: 50px;
+          text-align: center;
+          background-color: #474e5d;
+          border-radius: 50px 60px 50px 50px;
+          color: white;
+          
+     }.container{
+          padding: 0 16px;
+
+     }.container::after,.row::after{
+          content: "";
+          clear: both;
+          display: table;
+     }.title{
+          color: grey;
+          text-align: center;
+          font-size: 25px;
+     }.button{
+          border: none;
+          outline: 0;
+          display: inline-block;
+          padding: 8px;
+          color: white;
+          background-color: #000;
+          text-align: center;
+          cursor: pointer;
+          width: 100%;
+     }.button:hover{
+          background-color: #555;
+     }.column{
+          width: 100%;
+          display: block;
+     }.hii{
+          background-image:url('images/back.jpg'); 
+          border-radius: 50px 40px 10px 10px;
+          border: solid 2px lime;
+          border-top: solid 3px lime;
+     }h3{
+          color: yellow;
+          font-size: 30px;
+          text-transform: capitalize; 
+     }h2{
+
+          color: red;
+          text-align: center;
+     }hr{
+          width: 50%;
+          background-color: yellow;
+     }.card{
+          width:300px;
+          height:300px;
+     }img{
+         border-radius:50%;
+     }.img{
+          background-image: url('images/img2.jpeg');
+          border-radius: 70px 40px;
+          border: solid 5px gold;
+     }.contact{
+          text-align: right;
+          padding-right: 220px;
+          color: gold;
+
+     }form{
+          padding-bottom: 20px;
+     }.vik{
+          font-size: 20px;
+          font-family: sans-serif;
+          
+          padding-left:  200px;
+     }.vlk{
+          color:white;
+          font-size: 50px;
+     }footer{
+          text-align: center;
+     }

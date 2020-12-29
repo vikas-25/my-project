@@ -1,0 +1,106 @@
+<!doctype>
+<html lang="eng">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<meta name="description" content="page description">
+	<title>registration form</title>
+	<style type="text/css">
+	body{
+		padding-top: 100px;
+		background-image: url('images/back.jpg');
+	    border: solid 5px orange;
+		border-radius: 20px 20px 20px 20px;
+		padding-left: 400px;
+		padding-right: 300px;
+		
+		}form{
+		font-family:sans-serif;
+		background-color: #f3e9a0;
+		border-radius: 40px 30px;
+		padding-bottom: 10px;
+		border: solid 5px red ;
+		font-weight: bold;
+		}fieldset{
+			width: 590px;
+			border-radius: 40px;
+           
+	}legend{
+		text-align: center;
+		padding-top: 20px;
+		color: red;
+		font-size: 20px;
+
+	}label{
+		padding-left: 20px;
+		display: inline-block;
+		font-weight: bold;
+
+
+	}p{
+	
+	}input{
+		padding-top: 5px;
+		padding-left: 10px;
+		color: blue;
+
+	}h4{
+		padding-left: 20px;
+		font-weight: none;
+		color: red;
+	}button{
+		background-color: green;
+		font-size:15px;
+	    padding-left:10px; 
+		color: white;
+		padding-top: 5px;
+		border-radius: 3px;
+      }
+	</style>
+	
+</head>
+<body>
+
+	<form action="connect123.php" method="POST">
+		<div>
+		<fieldset>
+			<legend>Register Form</legend>
+         <p>
+			<label for="input-text">First Name:</label>
+			<input type="text"  id="name" placeholder="enter your first name" name="firstname"required>
+		</p>
+		<p>
+			<label for="input-text">Last Name:</label>
+			<input type="text"  id="name" placeholder="enter your last name" name="lastname"required>
+		</p>
+		<p>
+			<label for="input-email">Email-Id : </label>
+			<input type="email"  id="email" placeholder="Ex123@gmail.com"  name="email" required>
+		</p>
+		<p>
+			<label for="password">Password:</label>
+			<input type="password"  id="password"   name="password"required>
+	    <p>
+	
+       <h4> Gender:</h4>
+       	<input type="radio" id="male" value="male" name="gender"checked>Male
+       	<input  type="radio"  id="female" value="female" name="gender">Female
+       	<input type="radio" id="other" value="other" name="gender">Other
+       
+       </p>	
+   
+       		<label for="number">Phone No: <span style="color:blue">+91</span></label>
+       		<input type="text" placeholder="country code" name="country code">
+       	</p>
+        </fieldset>
+       <p>
+       <button type="submit">Submit </button>
+       <button type="Reset">Reset </button>
+   </p>
+  
+   </div>
+   
+	</form>
+    </body>
+
+	</html>
